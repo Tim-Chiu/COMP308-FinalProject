@@ -6,36 +6,42 @@
 		<h3 data-ng-bind="survey.desc"></h3>
 	</div>
     <div>
-		<h3 data-ng-bind="survey.question1"></h3>
+		<h3 data-ng-bind="survey.q1"></h3>
 	</div>
-    <label data-ng-bind="survey.question1" id="question1" class="form-control" required></label>
+    <label data-ng-bind="survey.q1" id="q1" class="form-control" required></label>
     <div class="radio">
-        <input type="radio" name="answers"><label data-ng-bind="survey.answers1a"></label><br/>
-        <input type="radio" name="answers"><label data-ng-bind="survey.answers1b"></label><br/>
-        <input type="radio" name="answers"><label data-ng-bind="survey.answers1c"></label><br/>
-        <input type="radio" name="answers"><label data-ng-bind="survey.answers1d"></label>
+        <input type="radio" name="a1"><label data-ng-bind="survey.a11"></label><br/>
+        <input type="radio" name="a1"><label data-ng-bind="survey.a12"></label><br/>
+        <input type="radio" name="a1"><label data-ng-bind="survey.a13"></label><br/>
+        <input type="radio" name="a1"><label data-ng-bind="survey.a14"></label>
     </div>
-    <label data-ng-bind="survey.question2" id="question2" class="form-control" required></label>
+    <label data-ng-bind="survey.q2" id="q2" class="form-control" required></label>
     <div class="radio">
-        <input type="radio" name="answers2"><label data-ng-bind="survey.answers2a"></label><br/>
-        <input type="radio" name="answers2"><label data-ng-bind="survey.answers2b"></label><br/>
-        <input type="radio" name="answers2"><label data-ng-bind="survey.answers2c"></label><br/>
-        <input type="radio" name="answers2"><label data-ng-bind="survey.answers2d"></label>
+        <input type="radio" name="a2"><label data-ng-bind="survey.a21"></label><br/>
+        <input type="radio" name="a2"><label data-ng-bind="survey.a22"></label><br/>
+        <input type="radio" name="a2"><label data-ng-bind="survey.a23"></label><br/>
+        <input type="radio" name="a2"><label data-ng-bind="survey.a24"></label>
     </div>
-    <label data-ng-bind="survey.question3" id="question3" class="form-control" required></label>
+    <label data-ng-bind="survey.q3" id="q3" class="form-control" required></label>
     <div class="radio">
-        <input type="radio" name="answers3"><label data-ng-bind="survey.answers3a"></label><br/>
-        <input type="radio" name="answers3"><label data-ng-bind="survey.answers3b"></label><br/>
-        <input type="radio" name="answers3"><label data-ng-bind="survey.answers3c"></label><br/>
-        <input type="radio" name="answers3"><label data-ng-bind="survey.answers3d"></label>
+        <input type="radio" name="a3"><label data-ng-bind="survey.a31"></label><br/>
+        <input type="radio" name="a3"><label data-ng-bind="survey.a32"></label><br/>
+        <input type="radio" name="a3"><label data-ng-bind="survey.a33"></label><br/>
+        <input type="radio" name="a3"><label data-ng-bind="survey.a34"></label>
     </div>
-    <label data-ng-bind="survey.question4" id="question4" class="form-control" required></label>
+    <label data-ng-bind="survey.q4" id="q4" class="form-control" required></label>
     <div class="radio">
-        <input type="radio" name="answers4"><label data-ng-bind="survey.answers4a"></label><br/>
-        <input type="radio" name="answers4"><label data-ng-bind="survey.answers4b"></label><br/>
-        <input type="radio" name="answers4"><label data-ng-bind="survey.answers4c"></label><br/>
-        <input type="radio" name="answers4"><label data-ng-bind="survey.answers4d"></label>
+        <input type="radio" name="a4"><label data-ng-bind="survey.a41"></label><br/>
+        <input type="radio" name="a4"><label data-ng-bind="survey.a42"></label><br/>
+        <input type="radio" name="a4"><label data-ng-bind="survey.a43"></label><br/>
+        <input type="radio" name="a4"><label data-ng-bind="survey.a44"></label>
     </div>
+    <label data-ng-bind="survey.q5" id="q5" class="form-control" required></label>
+    <div class="radio">
+        <input type="radio" name="a5"><label data-ng-bind="survey.a51"></label><br/>
+        <input type="radio" name="a5"><label data-ng-bind="survey.a52"></label><br/>
+        <input type="radio" name="a5"><label data-ng-bind="survey.a53"></label><br/>
+        <input type="radio" name="a5"><label data-ng-bind="survey.a54"></label>
 	<div class="pull-right" data-ng-show="((authentication.user) && (authentication.user._id == survey.user._id))">
 		<a class="btn btn-primary" href="/#!/surveys/{{survey._id}}/edit">
 			<i class="glyphicon glyphicon-edit"></i>

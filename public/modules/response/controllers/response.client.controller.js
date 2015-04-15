@@ -8,8 +8,17 @@ angular.module('response').controller('ResponsesController', ['$scope', '$stateP
 		// Create new Response
 		$scope.create = function() {
 			// Create new Response object
-			var response = new Responses ({
-				name: this.name
+			var response = new Responses 
+                q1 : this.q1,
+				r1 : this.r1,
+                q2 : this.q2,
+                r2 : this.r2,
+                q3 : this.q3,
+                r3 : this.r3,
+                q4 : this.q4,
+                r4 : this.r4,
+                q5 : this.q5,
+                r5 : this.r5,
 			});
 
 			// Redirect after save

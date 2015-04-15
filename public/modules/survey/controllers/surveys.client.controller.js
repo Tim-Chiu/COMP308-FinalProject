@@ -9,17 +9,16 @@ angular.module('surveys').controller('SurveysController', ['$scope', '$statePara
 		$scope.create = function() {
 			// Create new Survey object
 			var survey = new Surveys ({
-				title: this.title,
-                desc: this.desc,
-                expiryDate: this.expiryDate,
-                question1: this.question1,
-                answers1a:this.answers1a,answers1b:this.answers1b,answers1c:this.answers1c,answers1d:this.answers1d,
-                question2: this.question2,
-                answers2a:this.answers2a,answers2b:this.answers2b,answers2c:this.answers2c,answers2d:this.answers2d,
-                question3: this.question3,
-                answers3a:this.answers3a,answers3b:this.answers3b,answers3c:this.answers3c,answers3d:this.answers3d,
-                question4: this.question4,
-                answers4a:this.answers4a,answers4b:this.answers4b,answers4c:this.answers4c,answers4d:this.answers4d
+                q1: this.q1,
+                a11:this.a11,a12:this.a12,a13:this.a13,a14:this.a14,
+                q2: this.q2,
+                a21:this.a21,a22:this.a22,a23:this.a23,a24:this.a24,
+                q3: this.q3,
+                a31:this.a31,a32:this.a32,a33:this.a33,a34:this.a34,
+                q4: this.q4,
+                a41:this.a41,a42:this.a42,a43:this.a43,a44:this.a44,
+                q5: this.q5,
+                a51:this.a51,a52:this.a52,a53:this.a53,a54:this.a54,
 			});
 
 			// Redirect after save
