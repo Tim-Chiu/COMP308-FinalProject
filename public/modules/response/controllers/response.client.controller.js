@@ -1,7 +1,7 @@
 'use strict';
 
 // Responses controller
-angular.module('response').controller('ResponsesController', ['$scope', '$stateParams', '$location', 'Authentication', 'Responses',
+angular.module('response').controller('ResponseController', ['$scope', '$stateParams', '$location', 'Authentication', 'Responses',
 	function($scope, $stateParams, $location, Authentication, Responses) {
 		$scope.authentication = Authentication;
 
@@ -19,6 +19,16 @@ angular.module('response').controller('ResponsesController', ['$scope', '$stateP
                 r4 : this.r4,
                 q5 : this.q5,
                 r5 : this.r5,
+                q6 : this.q6,
+                r6 : this.r6,
+                q7 : this.q7,
+                r7 : this.r7,
+                q8 : this.q8,
+                r8 : this.r8,
+                q9 : this.q9,
+                r9 : this.r9,
+                q10 : this.q10,
+                r10 : this.r10,
 			});
 
 			// Redirect after save
