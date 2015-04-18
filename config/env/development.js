@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://admin:admin@ds061731.mongolab.com:61731/finalproject',
+	db: ':tim@passwordds061711.mongolab.com:61711/surveysite',
 	app: {
-		title: 'finalProject - Development Environment'
+		title: 'surveysite - Development Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
